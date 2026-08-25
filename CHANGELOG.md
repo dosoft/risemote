@@ -6,6 +6,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 
 ## [Unreleased]
 
+## [1.0.3] - 2026-08-25
+
+### Fixed
+
+- The tray icon is now initialized reliably when RiseMote starts minimized.
+
 ## [1.0.2] - 2026-08-25
 
 ### Changed
