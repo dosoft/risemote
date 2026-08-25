@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>RiseMote — управление столом в Windows</title>
+  <meta name="description" content="Управляйте совместимым регулируемым по высоте столом в Windows через Bluetooth LE: сохраняйте положения, назначайте сочетания клавиш и следите за движением из трея.">
+  <link rel="canonical" href="https://dosoft.github.io/risemote/ru/">
+  <link rel="alternate" hreflang="en" href="https://dosoft.github.io/risemote/">
+  <link rel="icon" type="image/png" href="../logo.png">
+  <meta property="og:title" content="RiseMote — управление столом в Windows">
+  <meta property="og:description" content="Текущая высота, сохранённые положения, глобальные сочетания клавиш и управление из трея.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://dosoft.github.io/risemote/ru/">
+  <meta property="og:image" content="https://dosoft.github.io/risemote/logo.png">
+  <meta property="og:locale" content="ru_RU">
+  <meta name="twitter:card" content="summary">
+  <link rel="stylesheet" href="../styles.css">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"RiseMote","applicationCategory":"UtilitiesApplication","operatingSystem":"Windows 10, Windows 11","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"url":"https://dosoft.github.io/risemote/ru/","downloadUrl":"https://github.com/dosoft/risemote/releases"}</script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav"><a class="brand" href="../"><img src="../logo.png" alt="" width="40" height="40"><span>RiseMote</span></a><nav class="languages" aria-label="Язык"><a href="../">EN</a><span>RU</span></nav></div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">RiseMote для Windows</p>
+          <h1>Управление столом из Windows.</h1>
+          <p class="lead">RiseMote подключается к совместимому столу через Bluetooth LE, показывает текущую высоту и перемещает стол в сохранённое положение для работы сидя или стоя.</p>
+          <div class="cta"><a class="button" href="https://github.com/dosoft/risemote/releases/latest">Скачать для Windows</a><a class="text-link" href="#how-it-works">Как это работает <span aria-hidden="true">↓</span></a></div>
+          <p id="release-meta" class="release-meta" aria-live="polite">Последний релиз: пока не опубликован</p>
+          <ul class="requirements"><li>Windows 10/11</li><li>Установка без прав администратора</li></ul>
+        </div>
+
+        <div class="desk-demo" aria-label="Схема регулируемого по высоте стола">
+          <div class="connection"><span class="pulse"></span> Стол подключён</div>
+          <div class="readout"><span>Текущая высота</span><strong>72,5</strong><small>см</small></div>
+          <div class="desk-scene">
+            <div class="measure"><span>120</span><i></i><span>62</span></div>
+            <div class="desk"><div class="desk-top"></div><div class="desk-leg left"></div><div class="desk-leg right"></div><div class="desk-foot left"></div><div class="desk-foot right"></div></div>
+          </div>
+          <div class="preset-row"><span>Сидя · 72,5 см</span><span>Стоя · 112,0 см</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="how-it-works" class="section"><div class="container">
+      <p class="eyebrow">Как это работает</p><h2>Подключите стол и сохраните нужные значения высоты.</h2>
+      <div class="steps">
+        <article><span class="step-number">01</span><h3>Найдите стол</h3><p>Запустите поиск BLE-устройств и выберите совместимый контроллер. RiseMote запомнит его и сможет подключаться автоматически.</p></article>
+        <article><span class="step-number">02</span><h3>Сохраните положения</h3><p>Создайте профили с точными значениями высоты, расставьте их в нужном порядке и при желании назначьте сочетания клавиш.</p></article>
+        <article><span class="step-number">03</span><h3>Перемещайте стол</h3><p>Выберите профиль в главном окне или нажмите назначенное сочетание клавиш. Ход движения отображается в трее, а текущую команду можно остановить в любой момент.</p></article>
+      </div>
+    </div></section>
+
+    <section class="section control-section"><div class="container control-grid">
+      <div><p class="eyebrow">Основные возможности</p><h2>Управление из главного окна и системного трея.</h2><p class="section-copy">В главном окне отображаются текущая высота и сохранённые профили. Когда окно свёрнуто, значок в трее показывает состояние подключения, а небольшое всплывающее окно — ход движения.</p></div>
+      <div class="feature-list">
+        <article><span>↕</span><div><h3>Точное управление высотой</h3><p>Задайте нужную высоту в сантиметрах, удерживайте кнопки вверх и вниз или выберите сохранённый профиль.</p></div></article>
+        <article><span>⌨</span><div><h3>Глобальные сочетания клавиш</h3><p>Перемещайте стол в сохранённое положение, не открывая главное окно.</p></div></article>
+        <article><span>◉</span><div><h3>Состояние в трее</h3><p>Без подключения значок серый, после подключения — цветной. Во время движения стола рядом отображается его ход.</p></div></article>
+        <article><span>⚙</span><div><h3>Настройки приложения</h3><p>Задайте допустимый диапазон высоты, автоподключение, поведение окна, тему и язык интерфейса.</p></div></article>
+      </div>
+    </div></section>
+
+    <section class="section compatibility"><div class="container compatibility-grid">
+      <div><p class="eyebrow">Совместимость</p><h2>Работает с IKEA IDÅSEN и совместимыми контроллерами LINAK DPG.</h2><p>Компьютер связывается со столом напрямую через Bluetooth LE. Совместимость зависит от прошивки контроллера и BLE-адаптера компьютера.</p><p>Если Windows запрашивает сопряжение, сначала выполните его в системных настройках.</p></div>
+      <aside class="notice"><h3>Независимое неофициальное приложение</h3><p>RiseMote разработан независимо от IKEA и LINAK. Приложение не связано с этими компаниями, не поддерживается, не спонсируется и не одобрено ими.</p><p>IKEA, IDÅSEN, LINAK и Bluetooth — товарные знаки соответствующих владельцев. Эти названия используются только для описания совместимости.</p></aside>
+    </div></section>
+
+    <section class="section credits"><div class="container credit-card">
+      <div class="credit-mark" aria-hidden="true">♥</div>
+      <div><p class="eyebrow">Благодарности</p><h2>Спасибо проекту linak-controller.</h2><p>При исследовании протокола и разработке первых версий RiseMote проект <a href="https://github.com/rhyst/linak-controller" rel="noopener">linak-controller</a>, созданный <a href="https://github.com/rhyst" rel="noopener">rhyst</a>, использовался как справочный материал.</p><p>Спасибо rhyst за исследование и публикацию проекта. RiseMote — самостоятельное приложение для Windows, не связанное с проектом linak-controller или его автором и не поддерживаемое ими.</p></div>
+    </div></section>
+
+    <section class="section install"><div class="container install-card">
+      <div><p class="eyebrow">Установка</p><h2>Установите RiseMote для Windows</h2><p>Установщик содержит всё необходимое для работы RiseMote и устанавливает приложение для текущего пользователя.</p></div>
+      <ol><li>Скачайте <code>risemote-win-Setup.exe</code> со страницы релизов на GitHub.</li><li>Запустите установщик. Права администратора и отдельная установка .NET не потребуются.</li><li>Откройте RiseMote, найдите стол и сохраните первое положение.</li></ol>
+      <a class="button" href="https://github.com/dosoft/risemote/releases/latest">Скачать последнюю версию</a>
+      <p class="fine-print">Команда «Стоп» прекращает текущую программную команду движения, но не заменяет аппаратные механизмы безопасности стола.</p>
+    </div></section>
+  </main>
+
+  <footer><div class="container footer-grid"><p>RiseMote · управление столом в Windows через Bluetooth LE</p><p><a href="https://github.com/dosoft/risemote/releases">Релизы</a> · <a href="https://github.com/dosoft/risemote/issues">Сообщить о проблеме</a></p><p class="footer-legal">Неофициальное приложение, не связанное с IKEA или LINAK.</p></div></footer>
+  <script src="../release.js"></script>
+</body>
+</html>

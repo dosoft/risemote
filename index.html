@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>RiseMote — Desk control for Windows</title>
+  <meta name="description" content="Control a compatible sit-stand desk from Windows over Bluetooth LE. Save positions, assign global shortcuts, and monitor movement from the system tray.">
+  <link rel="canonical" href="https://dosoft.github.io/risemote/">
+  <link rel="alternate" hreflang="ru" href="https://dosoft.github.io/risemote/ru/">
+  <link rel="icon" type="image/png" href="logo.png">
+  <meta property="og:title" content="RiseMote — Desk control for Windows">
+  <meta property="og:description" content="Live height, saved positions, global shortcuts, and tray controls for a compatible sit-stand desk.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://dosoft.github.io/risemote/">
+  <meta property="og:image" content="https://dosoft.github.io/risemote/logo.png">
+  <meta property="og:locale" content="en_US">
+  <meta name="twitter:card" content="summary">
+  <link rel="stylesheet" href="styles.css">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"RiseMote","applicationCategory":"UtilitiesApplication","operatingSystem":"Windows 10, Windows 11","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"url":"https://dosoft.github.io/risemote/","downloadUrl":"https://github.com/dosoft/risemote/releases"}</script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav"><a class="brand" href="./"><img src="logo.png" alt="" width="40" height="40"><span>RiseMote</span></a><nav class="languages" aria-label="Language"><span>EN</span><a href="ru/">RU</a></nav></div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">RiseMote for Windows</p>
+          <h1>Control your desk from Windows.</h1>
+          <p class="lead">RiseMote connects to a compatible desk over Bluetooth LE. It shows the current height and moves the desk to saved sitting or standing positions.</p>
+          <div class="cta"><a class="button" href="https://github.com/dosoft/risemote/releases/latest">Download for Windows</a><a class="text-link" href="#how-it-works">See how it works <span aria-hidden="true">↓</span></a></div>
+          <p id="release-meta" class="release-meta" aria-live="polite">Latest release: not published yet</p>
+          <ul class="requirements"><li>Windows 10/11</li><li>Installs without admin rights</li></ul>
+        </div>
+
+        <div class="desk-demo" aria-label="Illustration of a height-adjustable desk">
+          <div class="connection"><span class="pulse"></span> Desk connected</div>
+          <div class="readout"><span>Current height</span><strong>72.5</strong><small>cm</small></div>
+          <div class="desk-scene">
+            <div class="measure"><span>120</span><i></i><span>62</span></div>
+            <div class="desk">
+              <div class="desk-top"></div>
+              <div class="desk-leg left"></div><div class="desk-leg right"></div>
+              <div class="desk-foot left"></div><div class="desk-foot right"></div>
+            </div>
+          </div>
+          <div class="preset-row"><span>Sit · 72.5 cm</span><span>Stand · 112.0 cm</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="how-it-works" class="section"><div class="container">
+      <p class="eyebrow">How it works</p><h2>Connect the desk and save the heights you use.</h2>
+      <div class="steps">
+        <article><span class="step-number">01</span><h3>Find your desk</h3><p>Scan for nearby BLE devices and select a compatible controller. RiseMote remembers it and can reconnect automatically.</p></article>
+        <article><span class="step-number">02</span><h3>Save positions</h3><p>Create profiles with exact heights, arrange them in any order, and optionally assign global shortcuts.</p></article>
+        <article><span class="step-number">03</span><h3>Move the desk</h3><p>Select a profile in the main window or press its shortcut. Movement progress is shown in the system tray, and the current command can be stopped at any time.</p></article>
+      </div>
+    </div></section>
+
+    <section class="section control-section"><div class="container control-grid">
+      <div><p class="eyebrow">Main features</p><h2>Use the main window or the system tray.</h2><p class="section-copy">The main window shows the current height and saved profiles. When it is minimized, the tray icon shows the connection status and a small popup shows movement progress.</p></div>
+      <div class="feature-list">
+        <article><span>↕</span><div><h3>Precise height control</h3><p>Set a target in centimeters, hold the up or down button, or choose a saved profile.</p></div></article>
+        <article><span>⌨</span><div><h3>Global shortcuts</h3><p>Move the desk to a saved position without opening the main window.</p></div></article>
+        <article><span>◉</span><div><h3>Status in the system tray</h3><p>The icon is gray while disconnected and colored when connected. Movement progress appears alongside it.</p></div></article>
+        <article><span>⚙</span><div><h3>Application settings</h3><p>Set the allowed height range, automatic connection, window behavior, theme, and interface language.</p></div></article>
+      </div>
+    </div></section>
+
+    <section class="section compatibility"><div class="container compatibility-grid">
+      <div><p class="eyebrow">Compatibility</p><h2>Works with IKEA IDÅSEN desks and compatible LINAK DPG controllers.</h2><p>Your PC communicates directly with the desk over Bluetooth LE. Compatibility depends on the controller firmware and your computer’s BLE adapter.</p><p>If Windows asks you to pair the desk, complete the pairing in Windows Settings first.</p></div>
+      <aside class="notice"><h3>Independent, unofficial software</h3><p>RiseMote is independently developed. It is not affiliated with, endorsed by, sponsored by, or approved by IKEA or LINAK.</p><p>IKEA, IDÅSEN, LINAK, and Bluetooth are trademarks of their respective owners. The names are used solely to describe compatibility.</p></aside>
+    </div></section>
+
+    <section class="section credits"><div class="container credit-card">
+      <div class="credit-mark" aria-hidden="true">♥</div>
+      <div><p class="eyebrow">Acknowledgements</p><h2>Thanks to the linak-controller project.</h2><p>During protocol research and early development, RiseMote used <a href="https://github.com/rhyst/linak-controller" rel="noopener">linak-controller</a>, a cross-platform command-line utility created by <a href="https://github.com/rhyst" rel="noopener">rhyst</a>, as a reference.</p><p>Thanks to rhyst for publishing the research and the project. RiseMote is an independent Windows application and is neither affiliated with nor endorsed by the linak-controller project or its author.</p></div>
+    </div></section>
+
+    <section class="section install"><div class="container install-card">
+      <div><p class="eyebrow">Installation</p><h2>Install RiseMote on Windows</h2><p>The installer contains everything RiseMote needs to run and installs the application for the current user.</p></div>
+      <ol><li>Download <code>risemote-win-Setup.exe</code> from the GitHub Releases page.</li><li>Run the installer. You do not need administrator rights or a separate .NET installation.</li><li>Open RiseMote, find your desk, and save your first position.</li></ol>
+      <a class="button" href="https://github.com/dosoft/risemote/releases/latest">Download the latest release</a>
+      <p class="fine-print">The Stop command ends the current software-controlled movement. It does not replace the desk’s built-in safety mechanisms.</p>
+    </div></section>
+  </main>
+
+  <footer><div class="container footer-grid"><p>RiseMote · desk control for Windows over Bluetooth LE</p><p><a href="https://github.com/dosoft/risemote/releases">Releases</a> · <a href="https://github.com/dosoft/risemote/issues">Report a problem</a></p><p class="footer-legal">Unofficial software, not affiliated with IKEA or LINAK.</p></div></footer>
+  <script src="release.js"></script>
+</body>
+</html>
