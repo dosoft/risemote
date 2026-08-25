@@ -6,6 +6,16 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 
 ## [Unreleased]
 
+## [1.0.1] - 2026-08-25
+
+### Changed
+
+- Error messages now appear as temporary notifications at the bottom of the main window.
+
+### Fixed
+
+- Launching RiseMote while it is already running in the system tray now opens the existing window.
+
 ## [1.0.0] - 2026-08-25
 
 ### Added
