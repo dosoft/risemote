@@ -52,6 +52,15 @@ If the desk is not found, check that Bluetooth is enabled, move the computer clo
 
 Updates can be checked and installed from the application. Changes between versions are listed in the [changelog](CHANGELOG.md).
 
+## Support the project
+
+If RiseMote is useful to you, you can support its maintenance:
+
+- [Star the repository on GitHub](https://github.com/dosoft/risemote).
+- [Donate via PayPal](https://paypal.me/olegda).
+- USDT (TRC20): `TH1EKSqqK8EqGtfjpVbGi9YWjqpqy2rC7h`.
+- TON: `UQDIDJxzNDWlkv2ZQl6nxourhU7nwlBkErXDE3W7wJkJ_dGf`.
+
 ## Acknowledgements
 
 During protocol research and early development, RiseMote used [rhyst/linak-controller](https://github.com/rhyst/linak-controller) as a reference. Thanks to rhyst for publishing the research and the project. RiseMote is an independent application and is neither affiliated with nor endorsed by that project or its author.

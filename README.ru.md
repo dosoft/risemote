@@ -52,6 +52,15 @@ RiseMote работает со столами IKEA IDÅSEN и совместим
 
 Обновления можно проверять и устанавливать из приложения. Изменения между версиями перечислены в [changelog](CHANGELOG.md).
 
+## Поддержать проект
+
+Если RiseMote вам полезен, вы можете поддержать работу над проектом:
+
+- [Поставить звезду репозиторию на GitHub](https://github.com/dosoft/risemote).
+- [Поддержать через PayPal](https://paypal.me/olegda).
+- USDT (TRC20): `TH1EKSqqK8EqGtfjpVbGi9YWjqpqy2rC7h`.
+- TON: `UQDIDJxzNDWlkv2ZQl6nxourhU7nwlBkErXDE3W7wJkJ_dGf`.
+
 ## Благодарности
 
 При исследовании протокола и разработке первых версий RiseMote проект [rhyst/linak-controller](https://github.com/rhyst/linak-controller) использовался как справочный материал. Спасибо rhyst за исследование и публикацию проекта. RiseMote — самостоятельное приложение, не связанное с этим проектом или его автором и не поддерживаемое ими.
