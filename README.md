@@ -59,7 +59,7 @@ If RiseMote is useful to you, you can support its maintenance:
 - [Star the repository on GitHub](https://github.com/dosoft/risemote).
 - [Donate via PayPal](https://paypal.me/olegda).
 - USDT (TRC20): `TH1EKSqqK8EqGtfjpVbGi9YWjqpqy2rC7h`.
-- TON: `UQDIDJxzNDWlkv2ZQl6nxourhU7nwlBkErXDE3W7wJkJ_dGf`.
+- GRAM (TON): `UQDIDJxzNDWlkv2ZQl6nxourhU7nwlBkErXDE3W7wJkJ_dGf`.
 
 ## Acknowledgements
 

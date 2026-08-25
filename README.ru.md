@@ -59,7 +59,7 @@ RiseMote работает со столами IKEA IDÅSEN и совместим
 - [Поставить звезду репозиторию на GitHub](https://github.com/dosoft/risemote).
 - [Поддержать через PayPal](https://paypal.me/olegda).
 - USDT (TRC20): `TH1EKSqqK8EqGtfjpVbGi9YWjqpqy2rC7h`.
-- TON: `UQDIDJxzNDWlkv2ZQl6nxourhU7nwlBkErXDE3W7wJkJ_dGf`.
+- GRAM (TON): `UQDIDJxzNDWlkv2ZQl6nxourhU7nwlBkErXDE3W7wJkJ_dGf`.
 
 ## Благодарности
 
