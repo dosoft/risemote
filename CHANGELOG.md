@@ -6,6 +6,16 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 
 ## [Unreleased]
 
+## [1.0.2] - 2026-08-25
+
+### Changed
+
+- The update dialog now clearly explains that restarting installs the downloaded update.
+
+### Fixed
+
+- The tray icon now appears immediately when RiseMote starts minimized, while the desk connection is still being restored.
+
 ## [1.0.1] - 2026-08-25
 
 ### Changed
