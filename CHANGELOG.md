@@ -6,6 +6,26 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 
 ## [Unreleased]
 
+## [1.1.0] - 2026-08-26
+
+### Added
+
+- Added a **Check for updates** command to the system tray menu.
+- Added Stream Deck setup instructions and a sample desk-control layout to the documentation and website.
+
+### Changed
+
+- The Bluetooth device window now shows the active connection, supports disconnecting it, and keeps scanning for other devices.
+- Bluetooth devices likely to be compatible desks are highlighted, and device details are arranged in consistent columns.
+- The Bluetooth window is wider, closes with Escape, and uses theme-aware secondary text colors.
+- Tray menus and movement notifications now update immediately when the application language changes.
+
+### Fixed
+
+- Starting RiseMote minimized no longer briefly flashes the main window while creating the tray icon.
+- The selected desk stays selected while the Bluetooth device list is updating.
+- Reconnecting to a previously paired desk is faster when Windows already has its Bluetooth services cached.
+
 ## [1.0.3] - 2026-08-25
 
 ### Fixed

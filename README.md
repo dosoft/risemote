@@ -42,6 +42,10 @@ The installer is not digitally signed, so Windows may display a SmartScreen warn
 
 The selected desk is remembered for later connections. If Windows requests pairing, complete it in Windows Settings first.
 
+## Stream Deck
+
+RiseMote can be integrated into an Elgato Stream Deck. Save a profile with a global shortcut in RiseMote, then bind that shortcut to a Stream Deck button via a **Hotkey** action. Pressing the button moves the desk to the saved position without opening the main window.
+
 ## Settings and diagnostics
 
 Settings are stored locally in `%LOCALAPPDATA%\RiseMote\settings.json`. Diagnostic logs are stored in `%LOCALAPPDATA%\RiseMote\logs`.
