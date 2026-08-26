@@ -94,6 +94,26 @@ h2 { max-width: 760px; margin: 0 0 2.2rem; font-size: clamp(2.2rem, 4vw, 3.7rem)
 .install-card li { margin-bottom: .75rem; }
 .install-card .button { justify-self: start; align-self: start; }
 .fine-print { margin: 0; color: var(--muted); font-size: .82rem; }
+.streamdeck-section { background: var(--surface); }
+.streamdeck-card { display: grid; grid-template-columns: minmax(0, 1fr) minmax(330px, 430px); gap: 3rem 4rem; align-items: center; padding: 3rem; border-radius: 28px; background: linear-gradient(135deg, #fff 45%, #edf5f1); box-shadow: 0 20px 55px rgba(32,58,48,.09); }
+.streamdeck-card h2 { margin-bottom: .8rem; }
+.streamdeck-card .section-copy { color: var(--muted); max-width: 660px; margin: .55rem 0 0; }
+.streamdeck-figure { min-width: 0; margin: 0; text-align: center; }
+.streamdeck-device { position: relative; width: min(100%, 410px); margin-inline: auto; padding: 1.35rem 1.35rem .9rem; border: 1px solid #3a413f; border-radius: 25px 25px 34px 34px; background: linear-gradient(145deg, #252a29, #090b0b 72%); box-shadow: 0 26px 38px rgba(12,23,19,.25), inset 0 1px 0 rgba(255,255,255,.12); transform: perspective(800px) rotateX(4deg); }
+.streamdeck-device::after { content: ""; position: absolute; inset: 8px 12% auto; height: 1px; background: linear-gradient(90deg, transparent, rgba(255,255,255,.2), transparent); }
+.deck-keys { display: grid; grid-template-columns: repeat(3, 1fr); gap: .72rem; }
+.deck-key { position: relative; display: flex; aspect-ratio: 1; min-width: 0; flex-direction: column; align-items: center; justify-content: center; gap: .12rem; border: 3px solid #050606; border-radius: 13px; color: #dbe9e3; background: radial-gradient(circle at 50% 30%, #26332e, #111614 72%); box-shadow: inset 0 0 0 1px rgba(255,255,255,.09), 0 3px 5px rgba(0,0,0,.7); overflow: hidden; }
+.deck-key::after { content: ""; position: absolute; inset: 0; background: linear-gradient(145deg, rgba(255,255,255,.1), transparent 38%); pointer-events: none; }
+.deck-key-stand { color: #dffff3; background: radial-gradient(circle at 50% 30%, #15946f, #073d2e 78%); }
+.deck-key-sit { color: #fff5e5; background: radial-gradient(circle at 50% 30%, #c87924, #5f2b0d 78%); }
+.deck-key-empty { background: radial-gradient(circle at 50% 30%, #1b201e, #0b0e0d 78%); }
+.deck-key-icon { font: 750 clamp(1.15rem, 3vw, 1.55rem)/.8 "Segoe UI Variable", "Segoe UI", sans-serif; }
+.deck-key-value { font: 760 clamp(.95rem, 2.7vw, 1.35rem)/1 "Segoe UI Variable", "Segoe UI", sans-serif; letter-spacing: -.04em; }
+.deck-key-value::after { content: " cm"; color: currentColor; font-size: .45em; font-weight: 600; opacity: .72; }
+.deck-key-label { position: relative; max-width: 90%; color: currentColor; font-size: clamp(.48rem, 1.3vw, .64rem); font-weight: 750; line-height: 1.1; letter-spacing: .035em; text-transform: uppercase; }
+.deck-brand { display: flex; align-items: baseline; justify-content: center; gap: .38rem; padding-top: .72rem; color: #88918e; font: 700 .56rem/1 "Segoe UI Variable", "Segoe UI", sans-serif; letter-spacing: .14em; }
+.deck-brand small { font-size: .46rem; letter-spacing: .09em; }
+.streamdeck-figure figcaption { margin-top: .8rem; color: var(--muted); font-size: .78rem; }
 .support { background: var(--green-soft); }
 .support-card { display: grid; grid-template-columns: .8fr 1.2fr; gap: 4rem; align-items: start; }
 .support-card h2 { margin-bottom: .8rem; }
@@ -121,6 +141,9 @@ footer a { color: #d4e5de; }
   .steps { grid-template-columns: 1fr; }
   .steps article { min-height: 0; }
   .steps h3 { margin-top: 2rem; }
+  .streamdeck-card { grid-template-columns: 1fr; }
+  .streamdeck-copy { text-align: center; }
+  .streamdeck-card .section-copy { margin-inline: auto; }
 }
 @media (max-width: 650px) {
   .container { width: min(100% - 1.5rem, 1120px); }
@@ -135,6 +158,10 @@ footer a { color: #d4e5de; }
   .preset-row span { padding: .45rem .55rem; font-size: .67rem; }
   .section { padding: 4.5rem 0; }
   .install-card { grid-template-columns: 1fr; padding: 1.5rem; }
+  .streamdeck-card { grid-template-columns: 1fr; padding: 1.5rem; }
+  .streamdeck-device { padding: 1rem 1rem .75rem; border-radius: 20px 20px 27px 27px; }
+  .deck-keys { gap: .48rem; }
+  .deck-key { border-width: 2px; border-radius: 10px; }
   .support-options li { grid-template-columns: 1fr; gap: .25rem; }
   .credit-card { grid-template-columns: 1fr; gap: 1rem; }
   .footer-grid { grid-template-columns: 1fr; text-align: center; }
