@@ -6,6 +6,39 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 
 ## [Unreleased]
 
+## [1.2.1] - 2026-09-27
+
+### Fixed
+
+- The notification window position is now correct.
+
+## [1.2.0] - 2026-09-26
+
+### Changed
+
+- The user interface was rebuilt on Avalonia with the same Fluent/WinUI look. The application now uses about 60% less memory, starts roughly twice as fast, and the installer download is about three times smaller (NativeAOT build).
+
+## [1.1.2] - 2026-08-27
+
+### Fixed
+
+- Adding a new preset no longer suggests an out-of-range height (6500 mm) when the desk is not connected; it now uses the configured minimum height.
+- A failed desk movement no longer blocks subsequent movements: the previous exception is no longer rethrown when starting a new move or pressing Stop.
+- The tray movement popup now closes when the main window is restored from the taskbar during a move, instead of leaving two progress indicators on screen.
+- Settings validation now reports a clear error instead of crashing when a preset name is missing (for example, after editing `settings.json` by hand).
+- The preset height validation error now identifies the offending property, making it easier to find broken entries in `settings.json`.
+
+### Changed
+
+- Updated the website icon to match the v1.1.1 application icon, and added proper `favicon.ico`, sized PNG favicons, and an Apple touch icon. The header logo is now served from a 10 KB file instead of a 1.1 MB source asset.
+
+## [1.1.1] - 2026-08-27
+
+### Changed
+
+- Update checks started from the tray now report an up-to-date version through a tray notification; when an update is available, the tray command changes to **Update** and opens the update dialog.
+- Updated the application icon across the executable, taskbar, tray, and in-app logos.
+
 ## [1.1.0] - 2026-08-26
 
 ### Added
