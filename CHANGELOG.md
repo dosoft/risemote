@@ -6,6 +6,15 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 
 ## [Unreleased]
 
+## [1.2.2] - 2026-10-22
+
+### Fixed
+
+- Connecting to the desk is now fast: RiseMote no longer spends about 30 seconds enumerating Bluetooth devices before opening the desk, so a start that used to take half a minute connects in about a second.
+- Reconnecting to the desk no longer stops after a fixed number of attempts: RiseMote keeps trying for up to ten minutes and records in the log when it gives up.
+- A desk that Windows reports as unreachable no longer makes a reconnect attempt spend its whole timeout on repeated GATT queries.
+- Disconnecting no longer waits on a dead link: turning height notifications off and the final stop command give up after a couple of seconds, so the desk cannot keep the window or the Stop button waiting.
+
 ## [1.2.1] - 2026-09-27
 
 ### Fixed
