@@ -6,6 +6,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 
 ## [Unreleased]
 
+## [1.2.3] - 2026-11-02
+
+### Fixed
+
+- Turning auto-start on in the settings now also re-enables the entry when Windows startup apps had it switched off, so RiseMote starts with Windows again.
+
 ## [1.2.2] - 2026-10-22
 
 ### Fixed
